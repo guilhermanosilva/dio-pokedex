@@ -1,0 +1,142 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f6f8fc;
+  /* background-color: white; */
+}
+
+.content {
+  min-height: 100vh;
+  width: 95%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.title {
+  background-color: white;
+  color: #667;
+
+  text-align: center;
+  margin: 0;
+  padding: 1rem 0;
+  box-shadow: 1px 1px 6px 4px rgba(199, 199, 199, 0.1);
+  border-bottom: 1px solid #efefef;
+}
+
+.pagination {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+#loadMoreButton {
+  background-color: #6e5896;
+  border: none;
+  border-radius: 1rem;
+  padding: .5rem 1.5rem;
+  color: white;
+  font-family: 'Roboto';
+  font-size: .875rem;
+  text-align: center;
+  margin: 0 auto;
+  transition: all 0.2s;
+}
+
+#loadMoreButton:hover {
+  cursor: pointer;
+  background-color: #6e5896;
+  filter: brightness(1.05);
+  box-shadow: 1px 1px 6px 4px rgba(199, 199, 199, 0.5);
+}
+
+footer {
+  width: 100%;
+  padding: .5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: .875rem;
+  color: #667;
+  font-weight: boldm;
+}
+
+.normal {
+  background-color: #a6a877;
+}
+
+.grass {
+  background-color: #77c850;
+}
+
+.fire {
+  background-color: #ee7f30;
+}
+
+.water {
+  background-color: #678fee;
+}
+
+.electric {
+  background-color: #f7cf2e;
+}
+
+.ice {
+  background-color: #98d5d7;
+}
+
+.ground {
+  background-color: #dfbf69;
+}
+
+.flying {
+  background-color: #a98ff0;
+}
+
+.poison {
+  background-color: #a040a0;
+}
+
+.fighting {
+  background-color: #bf3029;
+}
+
+.psychic {
+  background-color: #f65687;
+}
+
+.dark {
+  background-color: #725847;
+}
+
+.rock {
+  background-color: #b8a137;
+}
+
+.bug {
+  background-color: #a8b720;
+}
+
+.ghost {
+  background-color: #6e5896;
+}
+
+.steel {
+  background-color: #b9b7cf;
+}
+
+.dragon {
+  background-color: #6f38f6;
+}
+
+.fairy {
+  background-color: #f9aec7;
+}
